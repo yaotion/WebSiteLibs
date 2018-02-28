@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<WebAPI>
+  <Project SavePath="E:\姚新\TestAPILib\" NameSpace="TF.TF" Version="1.0" ProjectName="包神运安_基础信息" CodePath="" TestAddress="192.168.1.166:20011" DefaultDBName="BSYA_WebSite" strSuccess="Success" strResultText="ResultText" strItems="Data" strSuccessMark="1" strFailureMark="0">
+    <DataList>
+      <DataGategory IsSystem="False" CategoryName="Base" CategoryBrief="基础信息">
+        <DataObject ObjectName="Station" ObjectBrief="车站信息" ObjectRemark="" TypeName="" TypeSort="1" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00">
+          <PropertyObject ObjectName="nid" ObjectBrief="自增编号" ObjectRemark="" TypeName="int"/>
+          <PropertyObject ObjectName="StationName" ObjectBrief="车站名称" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="NameJP" ObjectBrief="名称简拼" ObjectRemark="" TypeName="string"/>          
+          <PropertyObject ObjectName="StationNumber" ObjectBrief="车站所有号码1-10-1010,1-11-1011" ObjectRemark="" TypeName="string"/>
+        </DataObject>
+        <DataObject ObjectName="StationList" ObjectBrief="车站列表" ObjectRemark="" TypeName="Station" TypeSort="2" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00"/>
+        <DataObject ObjectName="DutyPlace" ObjectBrief="地点" ObjectRemark="" TypeName="" TypeSort="1" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00">
+          <PropertyObject ObjectName="PlaceID" ObjectBrief="地点编号" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="PlaceName" ObjectBrief="地点名称" ObjectRemark="" TypeName="string"/>
+        </DataObject>
+        <DataObject ObjectName="DutyPlaceList" ObjectBrief="地点列表" ObjectRemark="" TypeName="DutyPlace" TypeSort="2" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00"/>
+        <DataObject ObjectName="ICSection" ObjectBrief="写卡区段" ObjectRemark="" TypeName="" TypeSort="1" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00">
+          <PropertyObject ObjectName="JWDNumber" ObjectBrief="机务段号" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="JWDName" ObjectBrief="机务段名" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="ICSectionNumber" ObjectBrief="写卡区段号" ObjectRemark="" TypeName="int"/>
+          <PropertyObject ObjectName="ICSectionName" ObjectBrief="写卡区段名称" ObjectRemark="" TypeName="string"/>
+        </DataObject>
+        <DataObject ObjectName="ICSectionList" ObjectBrief="写卡区段列表" ObjectRemark="" TypeName="ICSection" TypeSort="2" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00"/>
+      </DataGategory>
+    </DataList>
+    <APIList>
+      <APIType TypeBrief="基础信息接口" TypeOrder="0" AssemblyName="TF.YA.Base" TypeName="LCBaseIF">
+        <APIItem APIBrief="获取所有车站信息" CreateDate="2017-10-26 09:22:48" ModifyDate="2017-10-26 09:27:53" APIName="TF.YA.Base.GetAllStations" APIVersion="" TypeName="LCBaseIF" TableName="" MethodName="GetAllStations">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="PageIndex" ObjectBrief="分页序号" ObjectRemark="" TypeName="int"/>
+            <PropertyObject TableName="" ObjectName="PageCount" ObjectBrief="每页数量" ObjectRemark="" TypeName="int"/>
+          </InputData>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="stations" ObjectBrief="车站列表" ObjectRemark="" TypeName="StationList"/>
+            <PropertyObject TableName="" ObjectName="TotalCount" ObjectBrief="全部车站数量" ObjectRemark="" TypeName="int"/>
+          </OutputData>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+        <APIItem APIBrief="获取所有地点信息" CreateDate="2017-10-26 09:22:48" ModifyDate="2017-10-26 09:26:04" APIName="TF.YA.Base.GetAllPlaces" APIVersion="" TypeName="LCBaseIF" TableName="" MethodName="GetAllPlaces">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0"/>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="places" ObjectBrief="地点列表" ObjectRemark="" TypeName="DutyPlaceList"/>
+          </OutputData>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+        <APIItem APIBrief="获取所有的写卡区段" CreateDate="2017-11-13 14:24:42" ModifyDate="2017-11-13 14:28:47" APIName="TF.TF.LCBaseIF.GetAllICSections" APIVersion="" TypeName="LCBaseIF" TableName="" MethodName="GetAllICSections">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0"/>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="SectionList" ObjectBrief="区段列表" ObjectRemark="" TypeName="ICSectionList"/>
+          </OutputData>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+      </APIType>
+    </APIList>
+  </Project>
+</WebAPI>

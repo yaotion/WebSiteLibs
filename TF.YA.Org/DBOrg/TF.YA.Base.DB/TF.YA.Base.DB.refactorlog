@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="2aad99e3-f706-4f91-b9c1-313d8a0dc37e" ChangeDateTime="10/24/2017 02:02:56">
+    <Property Name="ElementName" Value="[dbo].[TAB_Base_Station].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Base_Station]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StationName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e61b4e3f-df2e-400c-a564-99051191b9e7" ChangeDateTime="10/24/2017 02:05:11">
+    <Property Name="ElementName" Value="[dbo].[TAB_Base_DutyPlace].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Base_DutyPlace]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PlaceID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2d55243f-1eff-4ef1-8ce1-fba193909ace" ChangeDateTime="11/13/2017 05:24:17">
+    <Property Name="ElementName" Value="[dbo].[TAB_Base_ICSection].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Base_ICSection]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="JWDNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1fce7cbe-67d7-446f-a4da-c40bafd79c4b" ChangeDateTime="12/11/2017 02:56:49">
+    <Property Name="ElementName" Value="[dbo].[TAB_Base_Station_YJ].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Base_Station_YJ]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StationName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="949fa744-de23-4fa9-b0e0-2aeeaa9c7ab2" ChangeDateTime="12/11/2017 02:57:41">
+    <Property Name="ElementName" Value="[dbo].[TAB_Base_Station_TMIS].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Base_Station_TMIS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StationName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1043d2a7-a1dc-44bf-8c95-41ec2c28d053" ChangeDateTime="12/12/2017 09:40:07">
+    <Property Name="ElementName" Value="[dbo].[TAB_Base_Station].[YJ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Base_Station]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StationNumber" />
+  </Operation>
+</Operations>

@@ -1,0 +1,11 @@
+D:\赵文龙\ING\web框架\BasePlat\bin\Debug\BasePlat.dll
+D:\赵文龙\ING\web框架\BasePlat\bin\Debug\BasePlat.pdb
+D:\赵文龙\ING\web框架\BasePlat\bin\Debug\TF.CommonUtility.dll
+D:\赵文龙\ING\web框架\BasePlat\bin\Debug\ThinkFreely.DBUtility.dll
+D:\赵文龙\ING\web框架\BasePlat\bin\Debug\NPOI.dll
+D:\赵文龙\ING\web框架\BasePlat\bin\Debug\Newtonsoft.Json.dll
+D:\赵文龙\ING\web框架\BasePlat\bin\Debug\TF.CommonUtility.pdb
+D:\赵文龙\ING\web框架\BasePlat\bin\Debug\ThinkFreely.DBUtility.pdb
+D:\赵文龙\ING\web框架\BasePlat\obj\Debug\BasePlat.dll
+D:\赵文龙\ING\web框架\BasePlat\obj\Debug\BasePlat.pdb
+D:\赵文龙\ING\web框架\BasePlat\obj\Debug\BasePlat.csprojResolveAssemblyReference.cache

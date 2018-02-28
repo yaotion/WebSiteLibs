@@ -1,0 +1,206 @@
+﻿
+        body {
+            background-color:white;
+        }
+        .frameArea {
+            margin:0 auto;width:1920px;height:1080px; overflow:hidden
+        }
+        .frameTitle {
+            /*width:1905px;height:50px;line-height:50px;vertical-align:middle;padding-top:0px; overflow:hidden;background-color: #046CAD;color: white;*/
+            /*margin-left:5px;font-size: 30px;font-weight: bolder;text-align: center;*/
+            width:1920px;height:50px;line-height:50px;vertical-align:middle;padding-top:0px; overflow:hidden;background-color: #212E3E;color: white;
+            margin-left:0px;font-size: 30px;font-weight: bolder;text-align: center;
+            
+        }
+        .frameTitleSub {
+            width:1866px;height:50px;line-height:50px;vertical-align:middle;padding-top:0px; overflow:hidden;background-color: #212E3E;color: white;
+            font-size: 30px;font-weight: bolder;text-align: center;
+        }
+        .dataArea {
+            width:100%;height:100%; padding-left:5px;padding-right:5px;padding-top:5px; background-color:white;overflow:hidden
+        }
+
+
+        /*第一列总样式*/
+        .firstCol {
+            float:left;width:210px;height:1080px;padding:0;
+        }
+        /*第一列每大行样式*/
+        .firstColRow {
+            width:200px;border:solid 1px #B6B6B6;
+        }
+        /*第一列第一大行特殊样式*/
+        .firstColRowH1 {
+            height:320px;
+        }
+        /*第一列第二大行特殊样式*/
+        .firstColRowH2 {
+            margin-top:10px;height:650px;
+        }
+        /*第一列通用标题*/
+        .firstColTitle {
+            background-color:#DCDDDF;font-size:20px;height:50px;line-height:50px;vertical-align:middle;text-align:left; font-weight:bold; padding-left:10px;
+        }
+        /*机车数据库统计项单元格*/
+        .jcsjCell {
+            width:150px;border:solid 1px #B6B6B6;margin-top:60px;margin-left:20px;height:60px;clear:both;
+        }
+        /*机车数据库统计项值*/
+        .jcsjText {
+            float:left;height:60px;line-height:60px;width:60px;text-align:center;vertical-align:middle;font-size:18px; color:#FFFFFF;font-weight:bold
+        }
+        /*机车数据库统计项名称*/
+        .jcsjName {
+            float:left;height:60px;line-height:60px;width:80px;vertical-align:middle;font-weight:bold;font-size:16px;  text-align:center;
+        }
+        /*天气预报时间*/
+        .wheatherTime {
+            height:30px;line-height:30px;vertical-align:middle;text-align:center;font-size:16px;font-weight:bold ;color:#57B0D1;font-family:微软雅黑;padding-top:10px;
+        }
+        /*天气预报天气状况*/
+        .wheatherZhuangKuang {
+            height:40px;line-height:40px;vertical-align:middle;text-align:center;font-size:30px;font-weight:bold ;color:black;font-family:微软雅黑;padding-top:0px;
+        }
+        /*天气预报温度*/
+        .wheatherWenDu {
+            height:60px;line-height:60px;vertical-align:middle;text-align:center;font-size:40px;font-weight:bolder ;color:#57B0D1;font-family:Arial;padding-top:5px;
+        }
+        /*天气预报风力*/
+        .wheatherFengLi {
+            height:60px;line-height:60px;vertical-align:middle;text-align:center;font-size:18px;font-weight:bold ;color:black;
+        }
+        /*天气预报地点*/
+        .wheatherDiDian {
+            height:50px;line-height:50px;vertical-align:middle;text-align:center;font-size:18px;font-weight:bold ;color:white;background-color:#57B0D1;width:120px;margin-left:40px;
+        }
+        /*天气预报最下方空白*/
+        .wheatherSpaceLine {
+            height:20px;
+        }
+     
+        /*第二列，主要用于显示机车指数统计信息*/ 
+        .secondColumn {
+            float:left;width:1000px;  margin-left:0px;border:solid 1px #B6B6B6;height:982px;padding:0;background-color:white
+        }
+        /*机车统计总标题*/
+        .jcyj_title
+        {
+            background-color:#DCDDDF;font-size:20px;height:50px;line-height:50px;vertical-align:middle;text-align:left; font-weight:bold; padding-left:10px;
+        }
+        /*机车统计每一行的样式*/
+        .jcyj_row {
+            width:1000px;background-color:white;
+        }
+        /*一行显示一个统计图的背景*/
+        .jcyj_s_bg {
+            background-color:#DCDDDF; margin-top:10px;margin-left:10px;margin-right:10px;height:280px;
+        }
+        /*一行显示一个统计图的标题*/
+        .jcyj_s_title {
+            font-size:18px;height:30px;line-height:30px;clear:both;padding-left:10px;
+        }
+        /*一行显示一个统计图的表格*/
+        .jcyj_s_chart {
+           height:250px; width:950px;margin-left:10px;margin-right:10px;
+        }
+        /*一行显示二个统计图的背景*/
+        .jcyj_d_bg {
+            background-color: #DCDDDF; margin-top: 10px; float: left; margin-left: 10px; margin-right: 0px; height: 305px;
+        }
+        /*一行显示二个统计图的标题*/
+        .jcyj_d_title {
+            font-size:18px;height:30px;line-height:30px;clear:both;padding-left:10px;
+        }
+        /*一行显示二个统计图的表格*/
+        .jcyj_d_chart {
+            height:280px; width:485px;margin-left:0px;margin-right:0px;
+        }
+
+
+        /*第三列大框的样式*/
+        .ThirdCol {
+            float:left;width:680px; margin-left:10px;border:0px solid blue;height:862px;padding:0;
+        }
+        /*第三列每大行的样式*/
+        .ThirdColRow {
+            width:680px;border:solid 1px #B6B6B6;clear:both;
+        }
+        /*第三列第一大行的特殊样式*/
+        .ThirdColRowH1 {
+            height:340px;
+        }
+        /*第三列第二大行的特殊样式*/
+        .ThirdColRowH2 {
+            height:630px;margin-top:10px;
+        }
+        /*第三列第三大行的特殊样式*/
+         .ThirdColRowH3 {
+            background-color:white;height:234px;border:none;
+        }
+         /*第三列第四大行的特殊样式*/
+        .ThirdColRowH4 {
+            background-color:white;border:none;
+        }
+        /*安全预警标题*/
+        .aqyjTitle {
+            background-color:#DCDDDF;font-size:20px;height:50px;line-height:50px;vertical-align:middle;text-align:left; font-weight:bold; padding-left:10px;padding-right:10px;
+        }
+        /*安全预警饼图*/
+        .aqyjPie {
+            float:left;width:160px;height:220px;padding-top:15px;padding-left:5px;padding-right:5px;
+        }
+        /*安全预警表格*/
+        .aqyjGrid {
+            float:left;width:500px; height:280px;padding-top:15px;
+        }
+        /*安全预警Iframe*/
+        .aqyjGridFrame {
+            height:260px;
+        }
+        /*出退勤标题*/
+        .ctqTitle {
+            background-color:#DCDDDF;font-size:18px;height:40px;line-height:40px;vertical-align:middle;text-align:left; font-weight:bold; padding-left:10px;clear:both;
+        }
+        /*出退勤饼图*/
+        .ctqPie {
+            float:left;width:100px;height:100px;padding-top:5px;padding-left:5px;padding-right:5px;
+        }
+        /*出退勤线条总大小*/
+        .ctqLine {
+            float: left;width: 350px;height: 80px;
+        }
+        /*出退勤线条单项背景*/
+        .ctqLineItemBg {
+            clear:both; padding-left:20px; padding-top:10px;
+        }
+        /*出退勤线条单项名称*/
+        .ctqLineItemName {
+            float:left;padding-top:0px;height:10px;font-size:16px;
+        }
+        /*出退勤线条最大值*/
+        .ctqLineItemMax {
+            background-color:#CDCDCD;width:260px;height:15px;float:left;margin-left:5px;margin-top:3px;overflow:hidden;
+        }
+        /*出退勤线条当前值*/
+        .ctqLineItemValue {
+            height:15px;width:0px;
+        }
+        /*出退勤统计总背景*/
+        .ctqGrid {
+            background-color:#DCDDDF; margin-top:10px;margin-left:10px;margin-right:10px;
+        }
+       /*出退勤表格标题*/
+        .ctqGridTitle {
+            font-size:16px;height:30px;line-height:30px;clear:both;padding-left:10px;
+        }
+       /*出退勤表格图表*/
+        .ctqGridChart {
+            height:194px; width:640px;
+        }
+        .ctqGridHeight {
+            height:224px;
+        }
+        .ctqGridIFrameH {
+            height:230px;
+        }
+

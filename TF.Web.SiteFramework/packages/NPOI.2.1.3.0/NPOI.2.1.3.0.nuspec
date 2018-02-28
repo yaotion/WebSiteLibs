@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NPOI</id>
+    <version>2.1.3.0</version>
+    <title>NPOI</title>
+    <authors>yx</authors>
+    <owners>yx</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NPOI是指构建在POI 3.x版本之上的一个程序，NPOI可以在没有安装Office的情况下对Word或Excel文档进行读写操作。POI是一个开源的Java读写Excel、WORD等微软OLE2组件文档的项目。</description>
+  </metadata>
+</package>

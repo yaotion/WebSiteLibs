@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlConfig>
+  <!--系统数据库连接地址-->
+  <ConData>
+    <!--数据库连接字符串-->
+    <WebSiteConnectionString>Data Source=10.91.210.3;Initial Catalog=BSYA_WebSite;User ID=sa;PassWord=Think123;</WebSiteConnectionString>
+  </ConData>
+  <!--系统数据库连接地址-->
+  <SystemBase>
+    <!--站点名称-->
+    <SiteName>WEB模版</SiteName>
+    <!--端口号-->
+    <SitePort>8000</SitePort>
+  </SystemBase>
+  <login>
+    <!--目前有样式1 2 3 4 -->
+    <style>1</style>
+  </login>
+  <!--logo是否自定义-->
+  <logo>
+    <avatar>0</avatar>
+    <avatarBig>0</avatarBig>
+    <favicon>0</favicon>
+    <logo>0</logo>
+    <logoLogin>0</logoLogin>
+  </logo>
+  <!--主题样式-->
+  <Theme>
+    <stylelist>
+      .changetheme a.default { background: #FB9337; }  .changetheme a.blue { background: #046CAD; }
+    </stylelist>
+    <classlist>
+      &lt;a title="default" class="default"&gt;&lt;/a&gt; &lt;a title='blue' class='blue'&gt;&lt;/a&gt;
+    </classlist>
+  </Theme>
+  <!--默认导航-->
+  <Nav>
+    <!--网站首页默认值-->
+    <TopNav>E499BEB4-619A-4AE3-B0C1-3A6C3BCDCC68</TopNav>
+    <!--左侧导航默认值-->
+    <LeftNav>36</LeftNav>
+  </Nav>
+</XmlConfig>

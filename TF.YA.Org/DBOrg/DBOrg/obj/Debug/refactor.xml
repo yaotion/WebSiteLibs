@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="438326e6-545f-4a35-b3b8-04b2bc480577" ChangeDateTime="10/11/2017 05:25:54" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_Dept].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_Dept]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DepartID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e2b11a10-561c-47dd-b382-a2ef635ee08e" ChangeDateTime="10/11/2017 05:27:28" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_Dept].[DepartID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_Dept]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DeptID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ac871fae-539a-40c8-8a7e-d3843c16d67f" ChangeDateTime="10/11/2017 05:27:29" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_Dept].[DepartName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_Dept]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DeptName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9c01bd74-9bb7-42f2-b987-5d32b8b69c1b" ChangeDateTime="10/11/2017 05:27:31" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_Dept].[DepartType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_Dept]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DertType" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="774b8d18-9d12-49b8-8703-a6bb2a1ccc98" ChangeDateTime="10/11/2017 05:27:36" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_Dept].[DertType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_Dept]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DeptType" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6ad9652b-beb3-4f3f-ae87-2dfffaeb2ba2" ChangeDateTime="10/11/2017 05:32:19" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_Dept_Relation].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_Dept_Relation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DeptID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5161a20e-c382-4939-9076-94f80790c8cd" ChangeDateTime="10/11/2017 05:33:14" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_Dept_Relation].[Hig]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_Dept_Relation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HigherDepartID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9c9e7534-715f-4559-bb9b-b208b31e6e50" ChangeDateTime="10/11/2017 05:39:40" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_Post].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_Post]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PostID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="27775a5c-ffb8-494a-a74a-0fdcbd6440c8" ChangeDateTime="10/11/2017 05:41:28" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_Post_Type].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_Post_Type]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PostType" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d026bdc6-9d05-4756-9d57-270bb8cf4179" ChangeDateTime="10/11/2017 05:42:03" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_DeptType].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_DeptType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DeptType" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="04243ef1-599f-4ec2-91ae-9373cbcb1996" ChangeDateTime="10/11/2017 05:44:31" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_User].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TMNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="160c9d90-1add-4529-b94c-f4ced22278f3" ChangeDateTime="10/12/2017 01:47:51" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_User_DeptRelation].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_User_DeptRelation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TMNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="38e1fc20-bd6a-4c32-94ef-e8cea5ef00d5" ChangeDateTime="10/12/2017 02:01:31" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_User].[TMNumber]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1ff33890-7be6-4f7d-9f42-69d3b5735df0" ChangeDateTime="10/12/2017 02:01:35" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_User].[TMName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8b363f81-183b-49ad-82d4-a081151b15e9" ChangeDateTime="10/12/2017 02:01:44" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_User].[TMGUID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserGUID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5f57485a-556c-44a6-a1a5-9aed8fd0c249" ChangeDateTime="10/12/2017 02:05:12" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_User_DeptRelation].[TMNumber]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_User_DeptRelation]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ea1a7c53-99b7-4244-be6c-9e32cc82ee48" ChangeDateTime="10/12/2017 02:08:31" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_User_Feature].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_User_Feature]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserNumber" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ed7fec5e-f1cf-46da-8382-8cd530478293" ChangeDateTime="10/12/2017 02:10:14" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Org_User_FeatureType].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Org_User_FeatureType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FeatureTypeID" />
+  </Operation>
+</Operations>

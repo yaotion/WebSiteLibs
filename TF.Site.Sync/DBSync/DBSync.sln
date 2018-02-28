@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TF,YA.Soft.DBSync", "DBSync\TF,YA.Soft.DBSync.csproj", "{F145E673-CD9E-4B18-B727-3F5638AE93C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectSyncTool", "ObjectSyncTool\ObjectSyncTool.csproj", "{2BDE84BA-3459-44D4-8F0A-9D628EE6F0C4}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TF.YA.Soft.DBSync.DB", "TF.YA.Soft.DBSync.DB\TF.YA.Soft.DBSync.DB.sqlproj", "{FD91FA26-B9A7-42CF-9FE4-179F08D220CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F145E673-CD9E-4B18-B727-3F5638AE93C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F145E673-CD9E-4B18-B727-3F5638AE93C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F145E673-CD9E-4B18-B727-3F5638AE93C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F145E673-CD9E-4B18-B727-3F5638AE93C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BDE84BA-3459-44D4-8F0A-9D628EE6F0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDE84BA-3459-44D4-8F0A-9D628EE6F0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDE84BA-3459-44D4-8F0A-9D628EE6F0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDE84BA-3459-44D4-8F0A-9D628EE6F0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD91FA26-B9A7-42CF-9FE4-179F08D220CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD91FA26-B9A7-42CF-9FE4-179F08D220CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD91FA26-B9A7-42CF-9FE4-179F08D220CC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FD91FA26-B9A7-42CF-9FE4-179F08D220CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD91FA26-B9A7-42CF-9FE4-179F08D220CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD91FA26-B9A7-42CF-9FE4-179F08D220CC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

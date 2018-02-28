@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Oracle.ManagedDataAccess</id>
+    <version>4.121.2.0</version>
+    <title>Oracle.ManagedDataAccess</title>
+    <authors>yx</authors>
+    <owners>yx</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>数据库ODP连接</description>
+  </metadata>
+</package>

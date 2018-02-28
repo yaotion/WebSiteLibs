@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\WebPB</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Common.Logging.Core.dll">
+      <publishTime>10/11/2017 16:29:05</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.Core.pdb">
+      <publishTime>10/11/2017 16:29:05</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.dll">
+      <publishTime>10/11/2017 16:29:05</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.pdb">
+      <publishTime>10/11/2017 16:29:05</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/20/2017 10:01:14</publishTime>
+    </File>
+    <File Include="bin/NPOI.dll">
+      <publishTime>10/11/2017 16:27:37</publishTime>
+    </File>
+    <File Include="bin/NVelocity.dll">
+      <publishTime>10/11/2017 16:27:38</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.dll">
+      <publishTime>10/11/2017 16:27:38</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>10/19/2017 15:15:48</publishTime>
+    </File>
+    <File Include="bin/TF.BasePlat.dll">
+      <publishTime>11/13/2017 16:31:39</publishTime>
+    </File>
+    <File Include="bin/TF.CommonUtility.dll">
+      <publishTime>10/26/2017 10:51:42</publishTime>
+    </File>
+    <File Include="bin/TF.YA.Org.dll">
+      <publishTime>12/28/2017 09:53:52</publishTime>
+    </File>
+    <File Include="bin/TF.YA.Org.pdb">
+      <publishTime>12/28/2017 09:53:52</publishTime>
+    </File>
+    <File Include="bin/TF.YA.Org.Web.dll">
+      <publishTime>12/28/2017 09:56:55</publishTime>
+    </File>
+    <File Include="bin/TF.YA.Org.Web.pdb">
+      <publishTime>12/28/2017 09:56:55</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Providers.resources.dll">
+      <publishTime>10/19/2017 15:15:56</publishTime>
+    </File>
+    <File Include="icons/back.png">
+      <publishTime>11/02/2017 10:27:20</publishTime>
+    </File>
+    <File Include="icons/blank.gif">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/cancel.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/clear.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/cut.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/edit_add.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/edit_remove.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/filesave.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/filter.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/help.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/large_chart.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/large_clipart.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/large_picture.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/large_shapes.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/large_smartart.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/lock.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/man.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/mini_add.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/mini_edit.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/mini_refresh.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/more.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/no.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/ok.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/pencil.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/print.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/redo.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/reload.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/search.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/sum.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/tip.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="icons/undo.png">
+      <publishTime>11/02/2017 10:27:21</publishTime>
+    </File>
+    <File Include="Org/ashx/Org_Dept_Del.ashx">
+      <publishTime>10/20/2017 15:46:33</publishTime>
+    </File>
+    <File Include="Org/ashx/Org_List.ashx">
+      <publishTime>10/20/2017 09:57:41</publishTime>
+    </File>
+    <File Include="Org/ashx/Org_Post_Del.ashx">
+      <publishTime>10/20/2017 19:40:14</publishTime>
+    </File>
+    <File Include="Org/ashx/Post_List.ashx">
+      <publishTime>10/20/2017 17:16:05</publishTime>
+    </File>
+    <File Include="Org/Org_Dept_Add.aspx">
+      <publishTime>10/20/2017 19:17:12</publishTime>
+    </File>
+    <File Include="Org/Org_Dept_Dialog.aspx">
+      <publishTime>10/23/2017 15:08:46</publishTime>
+    </File>
+    <File Include="Org/Org_List.aspx">
+      <publishTime>11/01/2017 10:25:32</publishTime>
+    </File>
+    <File Include="Org/Post_Add.aspx">
+      <publishTime>10/20/2017 19:21:57</publishTime>
+    </File>
+    <File Include="Org/Post_List.aspx">
+      <publishTime>11/01/2017 10:25:08</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/14/2017 14:26:34</publishTime>
+    </File>
+    <File Include="Page/Org/Dept/ashx/Org_Dept_Del.ashx">
+      <publishTime>11/02/2017 09:44:37</publishTime>
+    </File>
+    <File Include="Page/Org/Dept/ashx/Org_List.ashx">
+      <publishTime>11/02/2017 09:44:37</publishTime>
+    </File>
+    <File Include="Page/Org/Dept/ashx/Org_Post_Del.ashx">
+      <publishTime>11/02/2017 09:44:37</publishTime>
+    </File>
+    <File Include="Page/Org/Dept/ashx/Post_List.ashx">
+      <publishTime>11/02/2017 09:44:37</publishTime>
+    </File>
+    <File Include="Page/Org/Dept/Org_Dept_Add.aspx">
+      <publishTime>11/02/2017 15:58:48</publishTime>
+    </File>
+    <File Include="Page/Org/Dept/Org_Dept_Data.aspx">
+      <publishTime>11/16/2017 11:01:03</publishTime>
+    </File>
+    <File Include="Page/Org/Dept/Org_Dept_Dialog.aspx">
+      <publishTime>11/02/2017 15:58:55</publishTime>
+    </File>
+    <File Include="Page/Org/Dept/Org_List.aspx">
+      <publishTime>11/16/2017 14:38:18</publishTime>
+    </File>
+    <File Include="Page/Org/Dept/Post_Add.aspx">
+      <publishTime>11/02/2017 15:59:04</publishTime>
+    </File>
+    <File Include="Page/Org/Dept/Post_List.aspx">
+      <publishTime>12/14/2017 09:41:20</publishTime>
+    </File>
+    <File Include="Page/Org/DutyUser/ashx/DutyUserPost_Delete.ashx">
+      <publishTime>11/14/2017 13:13:08</publishTime>
+    </File>
+    <File Include="Page/Org/DutyUser/ashx/DutyUserPost_List.ashx">
+      <publishTime>11/14/2017 13:12:55</publishTime>
+    </File>
+    <File Include="Page/Org/DutyUser/ashx/DutyUser_ClearPWD.ashx">
+      <publishTime>11/14/2017 15:12:24</publishTime>
+    </File>
+    <File Include="Page/Org/DutyUser/ashx/DutyUser_Delete.ashx">
+      <publishTime>11/14/2017 15:13:17</publishTime>
+    </File>
+    <File Include="Page/Org/DutyUser/ashx/DutyUser_List.ashx">
+      <publishTime>11/14/2017 13:43:29</publishTime>
+    </File>
+    <File Include="Page/Org/DutyUser/DutyUserPost_Add.aspx">
+      <publishTime>11/14/2017 13:21:00</publishTime>
+    </File>
+    <File Include="Page/Org/DutyUser/DutyUserPost_List.aspx">
+      <publishTime>11/14/2017 13:41:09</publishTime>
+    </File>
+    <File Include="Page/Org/DutyUser/DutyUser_Add.aspx">
+      <publishTime>11/14/2017 14:33:53</publishTime>
+    </File>
+    <File Include="Page/Org/DutyUser/DutyUser_List.aspx">
+      <publishTime>11/14/2017 15:11:31</publishTime>
+    </File>
+    <File Include="Page/Org/User/ashx/User_Delete.ashx">
+      <publishTime>10/23/2017 15:12:19</publishTime>
+    </File>
+    <File Include="Page/Org/User/ashx/User_Export.ashx">
+      <publishTime>12/14/2017 12:50:51</publishTime>
+    </File>
+    <File Include="Page/Org/User/ashx/User_Import.ashx">
+      <publishTime>12/14/2017 10:52:07</publishTime>
+    </File>
+    <File Include="Page/Org/User/ashx/User_List.ashx">
+      <publishTime>10/23/2017 14:52:33</publishTime>
+    </File>
+    <File Include="Page/Org/User/User_Add.aspx">
+      <publishTime>11/02/2017 16:00:04</publishTime>
+    </File>
+    <File Include="Page/Org/User/User_Import.aspx">
+      <publishTime>12/28/2017 09:58:29</publishTime>
+    </File>
+    <File Include="Page/Org/User/User_List.aspx">
+      <publishTime>12/28/2017 09:57:55</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>12/28/2017 10:02:06</publishTime>
+    </File>
+    <File Include="TF.CommonUtility.1.0.1.1013.nupkg">
+      <publishTime>10/26/2017 10:52:26</publishTime>
+    </File>
+    <File Include="User/ashx/User_Delete.ashx">
+      <publishTime>10/23/2017 15:12:19</publishTime>
+    </File>
+    <File Include="User/ashx/User_List.ashx">
+      <publishTime>10/23/2017 14:52:33</publishTime>
+    </File>
+    <File Include="User/User_Add.aspx">
+      <publishTime>10/23/2017 15:18:56</publishTime>
+    </File>
+    <File Include="User/User_List.aspx">
+      <publishTime>11/01/2017 10:25:59</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/28/2017 10:01:55</publishTime>
+    </File>
+    <File Include="XmlConfig.xml">
+      <publishTime>12/28/2017 09:28:09</publishTime>
+    </File>
+    <File Include="_Master/Frame.Master">
+      <publishTime>11/02/2017 15:23:54</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

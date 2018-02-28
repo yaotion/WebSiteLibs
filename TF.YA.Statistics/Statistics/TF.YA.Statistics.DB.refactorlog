@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="345a234b-9bd6-48ba-83e5-807eb65201ff" ChangeDateTime="12/07/2017 07:01:02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_Weather].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_Weather]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WeatherDay" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="567cb6b3-fddf-4003-a704-d2ca6e74aab3" ChangeDateTime="12/07/2017 07:02:21">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_Weather].[WebDu]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_Weather]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WebDu_Begin" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9ee19131-5955-443c-88aa-466b6c4af337" ChangeDateTime="12/07/2017 07:02:27">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_Weather].[WebDu_Begin]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_Weather]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WebDu_Begi" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="62fdc331-5239-4e9d-852c-99404d6830d2" ChangeDateTime="12/07/2017 07:02:53">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_Weather].[WebDu_Begi]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_Weather]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WebDu_End" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="85513d7d-b708-4cc3-bfcc-5b00771f8ccd" ChangeDateTime="12/07/2017 07:03:11">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_Weather].[WebDu_End]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_Weather]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WenDu_End" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f1c5ef93-7296-4abb-a259-31691468dca9" ChangeDateTime="12/07/2017 07:03:14">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_Weather].[WebDu_Begin]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_Weather]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WenDu_Begin" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="369fc70d-1b3b-41ef-b7e4-52ff4de7f9c9" ChangeDateTime="12/07/2017 07:05:57">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_Weather].[PlaceName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_Weather]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DiDian" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0271537f-5217-4a6e-b95f-cd2277fbdb4e" ChangeDateTime="12/07/2017 07:33:30">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_Train].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_Train]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="JWDCode" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="24e44487-6ede-442d-b503-c962ce70a1e2" ChangeDateTime="12/07/2017 07:34:59">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_Train_TJ].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_Train_TJ]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TJDay" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="70e71206-2cb7-4da6-997e-22f728abb5ac" ChangeDateTime="12/07/2017 07:36:02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_Train_TJ].[ZZ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_Train_TJ]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ZX" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d8dc9290-60c4-424d-9dc2-3d96c6aa63ce" ChangeDateTime="12/07/2017 09:11:05">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_BJ].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_BJ]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BJTime" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b418b403-fef5-4b0a-89c4-cbf5dcd5a90d" ChangeDateTime="12/07/2017 09:11:57">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_BJ].[BJCount]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_BJ]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BJItenName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="86576e02-da64-4747-99fd-35effc7eb3be" ChangeDateTime="12/07/2017 09:12:00">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_BJ].[BJItem]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_BJ]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BJItemID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f9dc890c-9e2f-4bd6-8260-3b2b2e013dde" ChangeDateTime="12/07/2017 09:15:51">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_BJ].[BJTime]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_BJ]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BJDay" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e3c8f924-5f7e-4b3c-9aa2-69d1e32c9081" ChangeDateTime="12/07/2017 09:36:08">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_BJ].[BJItenName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_BJ]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BJItemName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5dae2182-98f4-4b69-8da1-c246f7e98f45" ChangeDateTime="12/07/2017 09:42:01">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_PlanSum].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_PlanSum]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PlanDay" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5443f0c8-c09f-49a7-a77e-9229022ecb7d" ChangeDateTime="12/09/2017 05:45:02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Statistics_ConData].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Statistics_ConData]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SortID" />
+  </Operation>
+</Operations>

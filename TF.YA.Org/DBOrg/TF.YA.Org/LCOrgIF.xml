@@ -1,0 +1,131 @@
+﻿<?xml version="1.0"?>
+<WebAPI>
+  <Project SavePath="E:\姚新\TestAPILib\" NameSpace="TF.TF" Version="1.0" ProjectName="包神运安_组织结构" CodePath="" TestAddress="192.168.1.166:20011" DefaultDBName="BSYA_WebSite" strSuccess="result" strResultText="strResult" strItems="data" strSuccessMark="0" strFailureMark="1">
+    <DataList>
+      <DataGategory IsSystem="False" CategoryName="Org" CategoryBrief="组织结构">
+        <DataObject ObjectName="Dept" ObjectBrief="部门类" ObjectRemark="" TypeName="" TypeSort="1" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00">
+          <PropertyObject ObjectName="DeptID" ObjectBrief="部门编号" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="DeptName" ObjectBrief="部门名称" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="DeptOrder" ObjectBrief="部门序号" ObjectRemark="" TypeName="int"/>
+          <PropertyObject ObjectName="DeptType" ObjectBrief="部门类型" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="ParentDeptID" ObjectBrief="上级部门编号" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="ParentDeptName" ObjectBrief="上级部门名称" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="FullParentID" ObjectBrief="全部上级部门编号" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="FullParentName" ObjectBrief="全部上级部门名称" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="DeptLevel" ObjectBrief="部门级别" ObjectRemark="" TypeName="int"/>
+          <PropertyObject ObjectName="DeptData" ObjectBrief="部门数据" ObjectRemark="" TypeName="string"/>
+        </DataObject>
+        <DataObject ObjectName="DeptList" ObjectBrief="部门列表" ObjectRemark="" TypeName="Dept" TypeSort="2" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00"/>
+        <DataObject ObjectName="Post" ObjectBrief="岗位" ObjectRemark="" TypeName="" TypeSort="1" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00">
+          <PropertyObject ObjectName="PostID" ObjectBrief="岗位编号" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="PostName" ObjectBrief="岗位名称" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="PostType" ObjectBrief="岗位类型" ObjectRemark="" TypeName="int"/>
+        </DataObject>
+        <DataObject ObjectName="PostList" ObjectBrief="岗位列表" ObjectRemark="" TypeName="Post" TypeSort="2" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00"/>
+        <DataObject ObjectName="Feature" ObjectBrief="人员特征" ObjectRemark="" TypeName="" TypeSort="1" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00">
+          <PropertyObject ObjectName="UserNumber" ObjectBrief="工号" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="FeatureType" ObjectBrief="特征类型" ObjectRemark="" TypeName="int"/>
+          <PropertyObject ObjectName="FeatureContent" ObjectBrief="特征内容" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="FeatureIndex" ObjectBrief="特征序号" ObjectRemark="" TypeName="int"/>
+        </DataObject>
+        <DataObject ObjectName="FeatureList" ObjectBrief="特征列表" ObjectRemark="" TypeName="Feature" TypeSort="2" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00"/>
+        <DataObject ObjectName="User" ObjectBrief="人员信息" ObjectRemark="" TypeName="" TypeSort="1" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00">
+          <PropertyObject ObjectName="UserNumber" ObjectBrief="人员工号" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="UserName" ObjectBrief="人员姓名" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="NameJP" ObjectBrief="姓名简拼" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="TelNumber" ObjectBrief="联系电话" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="DeptID" ObjectBrief="所在部门" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="DeptName" ObjectBrief="所在部门名称" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="PostID" ObjectBrief="岗位编号" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="PostName" ObjectBrief="岗位名称" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="DeptFullName" ObjectBrief="所有上级部门名称" ObjectRemark="" TypeName="string"/>
+        </DataObject>
+        <DataObject ObjectName="UserList" ObjectBrief="人员列表" ObjectRemark="" TypeName="User" TypeSort="2" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00"/>
+        <DataObject ObjectName="DutyUser" ObjectBrief="值班员" ObjectRemark="" TypeName="" TypeSort="1" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00">
+          <PropertyObject ObjectName="DutyUserNumber" ObjectBrief="值班员工号" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="DutyUserName" ObjectBrief="值班员姓名" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="RoleID" ObjectBrief="角色编号" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="RoleName" ObjectBrief="角色名称" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="Password" ObjectBrief="密码" ObjectRemark="" TypeName="string"/>
+        </DataObject>
+        <DataObject ObjectName="DutyUserList" ObjectBrief="值班员信息列表" ObjectRemark="" TypeName="DutyUser" TypeSort="2" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00"/>
+      </DataGategory>
+    </DataList>
+    <APIList>
+      <APIType TypeBrief="组织结构接口" TypeOrder="0" AssemblyName="TF.YA.Org" TypeName="LCOrgIF">
+        <APIItem APIBrief="获取所有部门信息" CreateDate="2017-10-25 15:44:46" ModifyDate="2017-10-26 09:12:08" APIName="TF.YA.Org.GetAllDepts" APIVersion="" TypeName="LCOrgIF" TableName="" MethodName="GetAllDepts">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0"/>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="Depts" ObjectBrief="部门列表" ObjectRemark="" TypeName="DeptList"/>
+          </OutputData>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+        <APIItem APIBrief="获取所有人员信息" CreateDate="2017-10-25 15:44:46" ModifyDate="2017-10-26 09:20:11" APIName="TF.YA.Org.GetAllUsers" APIVersion="" TypeName="LCOrgIF" TableName="" MethodName="GetAllUsers">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="PageIndex" ObjectBrief="分页序号" ObjectRemark="" TypeName="int"/>
+            <PropertyObject TableName="" ObjectName="PageCount" ObjectBrief="每页数量" ObjectRemark="" TypeName="int"/>
+          </InputData>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="TotalCount" ObjectBrief="人员库所有数量" ObjectRemark="" TypeName="int"/>
+            <PropertyObject TableName="" ObjectName="users" ObjectBrief="人员列表" ObjectRemark="" TypeName="UserList"/>
+          </OutputData>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+        <APIItem APIBrief="更新人员的电话号码" CreateDate="2017-10-25 15:44:46" ModifyDate="2017-10-26 09:20:11" APIName="TF.YA.Org.UpdateUserTel" APIVersion="" TypeName="LCOrgIF" TableName="" MethodName="UpdateUserTel">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="UserNumber" ObjectBrief="用户工号" ObjectRemark="" TypeName="string"/>
+            <PropertyObject TableName="" ObjectName="UserTel" ObjectBrief="用户电话" ObjectRemark="" TypeName="string"/>
+          </InputData>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            
+          </OutputData>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+        <APIItem APIBrief="获取所有岗位信息" CreateDate="2017-10-25 15:44:46" ModifyDate="2017-10-26 09:13:47" APIName="TF.YA.Org.GetAllPosts" APIVersion="" TypeName="LCOrgIF" TableName="" MethodName="GetAllPosts">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0"/>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="Posts" ObjectBrief="岗位列表" ObjectRemark="" TypeName="PostList"/>
+          </OutputData>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+        <APIItem APIBrief="获取用户所有特征信息" CreateDate="2017-10-25 15:44:46" ModifyDate="2017-10-26 09:42:43" APIName="TF.YA.Org.GetUserFeatures" APIVersion="" TypeName="LCOrgIF" TableName="" MethodName="GetUserFeatures">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="UserNumber" ObjectBrief="用户工号" ObjectRemark="" TypeName="string"/>
+          </InputData>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="Features" ObjectBrief="特征类型" ObjectRemark="" TypeName="FeatureList"/>
+          </OutputData>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+        <APIItem APIBrief="修改人员指纹特征" CreateDate="2017-10-25 15:44:46" ModifyDate="2017-10-25 15:44:46" APIName="TF.YA.Org.UpdateUserFeature" APIVersion="" TypeName="LCOrgIF" TableName="" MethodName="UpdateUserFeature">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="UserNumber" ObjectBrief="用户工号" ObjectRemark="" TypeName="string"/>
+            <PropertyObject TableName="" ObjectName="FeatureType" ObjectBrief="特征类型" ObjectRemark="" TypeName="int"/>
+            <PropertyObject TableName="" ObjectName="FeatureContent" ObjectBrief="特征内容" ObjectRemark="" TypeName="string"/>
+            <PropertyObject TableName="" ObjectName="FeatureIndex" ObjectBrief="特征序号" ObjectRemark="" TypeName="int"/>
+          </InputData>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0"/>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+        <APIItem APIBrief="分页获取所有值班员信息" CreateDate="2017-11-15 08:45:46" ModifyDate="2017-11-15 08:53:31" APIName="TF.TF.LCOrgIF.GetAllDutyUsers" APIVersion="" TypeName="LCOrgIF" TableName="" MethodName="GetAllDutyUsers">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="PageIndex" ObjectBrief="页索引，从1开始" ObjectRemark="" TypeName="int"/>
+            <PropertyObject TableName="" ObjectName="PageCount" ObjectBrief="每页数据数量" ObjectRemark="" TypeName="int"/>
+          </InputData>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="TotalCount" ObjectBrief="总共数量" ObjectRemark="" TypeName="int"/>
+            <PropertyObject TableName="" ObjectName="DutyUsers" ObjectBrief="值班员信息列表" ObjectRemark="" TypeName="DutyUserList"/>
+          </OutputData>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+      </APIType>
+    </APIList>
+  </Project>
+</WebAPI>

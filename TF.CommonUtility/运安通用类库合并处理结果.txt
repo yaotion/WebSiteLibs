@@ -1,0 +1,110 @@
+--------------------------------------------------------------曾文秀-----------------------------------------------------------------
+1、XmlClass.cs 文件内增加了两个方法
+   public static void ToXML(DataTable dt, System.Web.UI.Page page, string filename)
+   public static void ToXML(DataTable dt, HttpResponse response, string filename)
+
+2、PinyinHelper类
+   PinyinHelper.GetPinyin  方法已有。应该用StrToPinyin.GetChineseSpell方法替换
+
+3、文件操作（FileUtil类）：增加几个方法备注：所有新增的类方法都在类的最下边
+   增加方法ReturnHTTPStream、GetResponseContentType、UploadFile、ReadAllContents、AppendStringToFile、GetMD5HashFromFile
+
+--------------------------------------------------------------冯登攀-----------------------------------------------------------------
+   增加应用NVelocity、Newtonsoft.Json 动态库
+1、增加 public static System.Data.DataSet ExcelSqlConnection(string filepath)
+   以增加到ExcelClass.cs
+2、增加CommonHelper.cs文件，且修改为NVelocityHelper.cs
+3、增加VirtualConverter.cs文件
+4、JsonConvert.cs文件增加三个方法
+   public static string static_SerializePNoDate(DataTable dt, int count)、
+   public static T JsonDeserialize<T>(string jsonString)、
+   public static void FormatDataRow(DataTable table, DataRow row)
+5、增加code.cs、Validation.cs文件
+6、GlobalSetting.cs、PageBase.cs、RequestHelper.cs、ResponseHelper.cs不予接入，自行在项目解决
+7、新增PageBase.cs文件
+
+--------------------------------------------------------------魏一-----------------------------------------------------------------
+1、增加 public static string GetTreeJson(DataTable dt, string ParentID, int deep)
+   此方法和具体数据库结构有关。不收入通用类库，自己剔除到项目类库中
+
+--------------------------------------------------------------白兴海-----------------------------------------------------------------
+1、Cookies.cs中增加两个方法
+   public static string GetCookie(string strName)
+   public static void WriteCookie(string strName, string strValue, int expires)
+2、JsonConvert.cs增加方法
+   public static List<Dictionary<string, object>> DataTableToList(DataTable dt)
+   
+   JsonDeserialize<T>（此条已有）
+   增加JsonHelper.cs
+
+3、UriClass.cs增加方法
+   public static string UrlEncode(string str)
+   public static string UrlDecode(string str)
+   public static string CombUrlTxt(string _url, string _keys, params string[] _values)
+   public static string HttpPost(string url, string param)
+   public static string HttpGet(string url)
+   public static string UrlExecute(string urlPath)
+4、XmlClass.cs增加方法
+   public static object Load(Type type, string filename)
+   public static void Save(object obj, string filename)
+5、ObjectConvertClass.cs增加方法
+   public static int StrToInt(string expression, int defValue)
+   public static float StrToFloat(string expression, float defValue)
+   public static float? static_ext_float(object o)
+   public static string static_ext_string_null(object o)
+6、拼音类 添加ChineseToPinYin.cs 汉字转拼音类
+   应该用StrToPinyin.GetChineseSpell方法替换
+7、DateClass.cs增加方法
+   public static int GetFebruaryDays(int year)
+   public static int GetCurrMonthDays()
+
+   增加WaiNianLi.cs单元
+8、FileUtil.cs增加方法
+   public static bool DeleteFile(string _filepath)
+   public static string GetMapPath(string strPath)
+9、TextClass.cs
+   public static string DelLastChar(string str, string strchar)
+   public static string[] strToArray(string str, char splitChar)
+10、增加文件夹
+    Cache管理、Cookie管理、DataTableToList(数据转换)、Enums(公用枚举)、Sockets网络协议、Upload简单上传
+
+    其中去除掉Enums(公用枚举).cs中的以下枚举类型(因为跟具体业务有关)
+        /// <summary>
+        /// 材料状态
+        /// </summary>
+        public enum CaiLiaoState
+        {
+            未准备 = 0,
+            已准备 = 1,
+            已送达 = 2,
+            已接收 = 3
+        }
+
+        /// <summary>
+        /// 工具状态
+        /// </summary>
+        public enum GongJuState
+        {
+            未准备 = 0,
+            已准备 = 1,
+            已送达 = 2,
+            已接收 = 3
+        }
+
+        /// <summary>
+        /// 设备状态
+        /// </summary>
+        public enum SheBeiState
+        {
+            全部正常 = 1,
+            故障 = 2
+        }
+
+        /// <summary>
+        /// 人员状态
+        /// </summary>
+        public enum RenYuanState
+        {
+            未到位 = 0,
+            已到位 = 1
+        }

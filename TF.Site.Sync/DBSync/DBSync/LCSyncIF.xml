@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<WebAPI>
+  <Project SavePath="E:\姚新\TestAPILib\" NameSpace="TF.TF.YA.Soft.DBSync" Version="1.0.0.1108" ProjectName="包神运安_人员同步" CodePath="" TestAddress="192.168.1.166:20011" DefaultDBName="DBTrainmanWorkStatus17571" strSuccess="Success" strResultText="ResultText" strItems="Data" strSuccessMark="1" strFailureMark="0">
+    <DataList>
+      <DataGategory IsSystem="False" CategoryName="Sync" CategoryBrief="同步数据">
+        <DataObject ObjectName="UserIndex" ObjectBrief="用户数据索引" ObjectRemark="" TypeName="" TypeSort="1" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00">
+          <PropertyObject ObjectName="UserID" ObjectBrief="用户编号" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="ObjectName" ObjectBrief="关注对象名称" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="Key" ObjectBrief="数据主键" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="OP" ObjectBrief="变动操作(0不变,1增,2改,3删)" ObjectRemark="" TypeName="int"/>
+          <PropertyObject ObjectName="UpdateTime" ObjectBrief="更新时间" ObjectRemark="" TypeName="DateTime"/>
+        </DataObject>
+        <DataObject ObjectName="UserIndexList" ObjectBrief="用户数据索引列表" ObjectRemark="" TypeName="UserIndex" TypeSort="2" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00"/>
+        <DataObject ObjectName="SyncData" ObjectBrief="同步数据" ObjectRemark="" TypeName="" TypeSort="1" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00">
+          <PropertyObject ObjectName="Key" ObjectBrief="数据主键" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="Json" ObjectBrief="数据内容" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="Version" ObjectBrief="数据版本" ObjectRemark="" TypeName="string"/>
+        </DataObject>
+        <DataObject ObjectName="SyncDataList" ObjectBrief="同步数据列表" ObjectRemark="" TypeName="UserIndexList" TypeSort="2" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00"/>
+        <DataObject ObjectName="SyncDataIndex" ObjectBrief="同步数据索引" ObjectRemark="" TypeName="" TypeSort="1" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00">
+          <PropertyObject ObjectName="Key" ObjectBrief="数据主键" ObjectRemark="" TypeName="string"/>
+          <PropertyObject ObjectName="Version" ObjectBrief="数据版本" ObjectRemark="" TypeName="string"/>
+        </DataObject>
+        <DataObject ObjectName="SyncDataIndexList" ObjectBrief="同步数据索引列表" ObjectRemark="" TypeName="SyncDataIndex" TypeSort="2" CreateDate="1899-12-30 00:00:00" ModifyDate="1899-12-30 00:00:00"/>
+      </DataGategory>
+    </DataList>
+    <APIList>
+      <APIType TypeBrief="人员同步" TypeOrder="0" AssemblyName="TF.YA.Soft.DBSync" TypeName="">
+        <APIItem APIBrief="注册同步客户端" CreateDate="2017-11-08 15:44:25" ModifyDate="2017-11-08 15:44:25" APIName="TF.YA.Soft.IFSync.RegUser" APIVersion="" TypeName="IFSync" TableName="" MethodName="RegUser">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="UserID" ObjectBrief="客户端编号" ObjectRemark="" TypeName="string"/>
+            <PropertyObject TableName="" ObjectName="UserName" ObjectBrief="客户端名称" ObjectRemark="" TypeName="string"/>
+            <PropertyObject TableName="" ObjectName="ObjectName" ObjectBrief="同步对象名称" ObjectRemark="" TypeName="string"/>
+          </InputData>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0"/>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+        <APIItem APIBrief="注销客户端关注" CreateDate="2017-11-08 15:46:47" ModifyDate="2017-11-08 15:46:47" APIName="TF.YA.Soft.IFSync.UnRegUser" APIVersion="" TypeName="IFSync" TableName="" MethodName="UnRegUser">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="UserID" ObjectBrief="客户端编号" ObjectRemark="" TypeName="string"/>
+            <PropertyObject TableName="" ObjectName="ObjectName" ObjectBrief="关注对象名称" ObjectRemark="" TypeName="string"/>
+          </InputData>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0"/>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+        <APIItem APIBrief="获取差异更新数据索引" CreateDate="2017-11-08 15:49:06" ModifyDate="2017-11-08 16:02:32" APIName="TF.YA.Soft.IFSync.GetUserIndex" APIVersion="" TypeName="IFSync" TableName="" MethodName="GetUserIndex">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="UserID" ObjectBrief="客户端编号" ObjectRemark="" TypeName="string"/>
+            <PropertyObject TableName="" ObjectName="ObjectName" ObjectBrief="关注对象名称" ObjectRemark="" TypeName="string"/>
+          </InputData>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="IsReg" ObjectBrief="该客户端是否已经注册过" ObjectRemark="" TypeName="int"/>
+            <PropertyObject TableName="" ObjectName="UserIndexes" ObjectBrief="用户索引列表" ObjectRemark="" TypeName="UserIndexList"/>
+          </OutputData>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+        <APIItem APIBrief="获取数据" CreateDate="2017-11-08 15:56:30" ModifyDate="2017-11-08 16:01:34" APIName="TF.YA.Soft.IFSync.GetObjectData" APIVersion="" TypeName="IFSync" TableName="" MethodName="GetObjectData">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="ObjectName" ObjectBrief="关注对象名称" ObjectRemark="" TypeName="string"/>
+            <PropertyObject TableName="" ObjectName="Key" ObjectBrief="数据主键" ObjectRemark="" TypeName="string"/>
+          </InputData>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="IsExist" ObjectBrief="是否存在(0不存在,1存在)" ObjectRemark="" TypeName="int"/>
+            <PropertyObject TableName="" ObjectName="Data" ObjectBrief="数据内容" ObjectRemark="" TypeName="SyncData"/>
+          </OutputData>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+        <APIItem APIBrief="获取全部数据索引" CreateDate="2017-11-08 16:02:35" ModifyDate="2017-11-08 16:08:39" APIName="TF.YA.Soft.IFSync.GetObjectDatas" APIVersion="" TypeName="IFSync" TableName="" MethodName="GetObjectDatas">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="ObjectName" ObjectBrief="同步对象名称" ObjectRemark="" TypeName="string"/>
+          </InputData>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="DataList" ObjectBrief="对象列表" ObjectRemark="" TypeName="SyncDataIndexList"/>
+          </OutputData>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+        <APIItem APIBrief="提交用户更新" CreateDate="2017-11-08 16:08:51" ModifyDate="2017-11-08 16:08:51" APIName="TF.YA.Soft.IFSync.CommitUserIndex" APIVersion="" TypeName="IFSync" TableName="" MethodName="CommitUserIndex">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="UserID" ObjectBrief="客户端编号" ObjectRemark="" TypeName="string"/>
+            <PropertyObject TableName="" ObjectName="ObjectName" ObjectBrief="用户名称" ObjectRemark="" TypeName="string"/>
+            <PropertyObject TableName="" ObjectName="Key" ObjectBrief="数据主键" ObjectRemark="" TypeName="string"/>
+          </InputData>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0"/>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+        <APIItem APIBrief="清除客户端的所有更新" CreateDate="2017-11-08 16:10:28" ModifyDate="2017-11-08 16:10:28" APIName="TF.YA.Soft.IFSync.ClearUserIndex" APIVersion="" TypeName="IFSync" TableName="" MethodName="ClearUserIndex">
+          <InputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0">
+            <PropertyObject TableName="" ObjectName="UserID" ObjectBrief="客户端编号" ObjectRemark="" TypeName="string"/>
+            <PropertyObject TableName="" ObjectName="ObjectName" ObjectBrief="关注对象名称" ObjectRemark="" TypeName="string"/>
+          </InputData>
+          <OutputData ObjectName="" ObjectBrief="" ObjectRemark="" TypeName="" TypeSort="0"/>
+          <APITestData/>
+          <RemarkNode></RemarkNode>
+        </APIItem>
+      </APIType>
+    </APIList>
+  </Project>
+</WebAPI>

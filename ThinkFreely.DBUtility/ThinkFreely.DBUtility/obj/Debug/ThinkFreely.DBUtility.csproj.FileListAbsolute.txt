@@ -1,0 +1,15 @@
+D:\赵文龙\ING\整备场信息管理系统\整备场信息管理系统\ThinkFreely.DBUtility\bin\Debug\ThinkFreely.DBUtility.dll
+D:\赵文龙\ING\整备场信息管理系统\整备场信息管理系统\ThinkFreely.DBUtility\bin\Debug\ThinkFreely.DBUtility.pdb
+D:\赵文龙\ING\整备场信息管理系统\整备场信息管理系统\ThinkFreely.DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\赵文龙\ING\整备场信息管理系统\整备场信息管理系统\ThinkFreely.DBUtility\obj\Debug\ThinkFreely.DBUtility.dll
+D:\赵文龙\ING\整备场信息管理系统\整备场信息管理系统\ThinkFreely.DBUtility\obj\Debug\ThinkFreely.DBUtility.pdb
+D:\赵文龙\ING\ThinkFreely.DBUtility\bin\Debug\ThinkFreely.DBUtility.dll
+D:\赵文龙\ING\ThinkFreely.DBUtility\bin\Debug\ThinkFreely.DBUtility.pdb
+D:\赵文龙\ING\ThinkFreely.DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\赵文龙\ING\ThinkFreely.DBUtility\obj\Debug\ThinkFreely.DBUtility.dll
+D:\赵文龙\ING\ThinkFreely.DBUtility\obj\Debug\ThinkFreely.DBUtility.pdb
+C:\Users\Administrator\Desktop\ThinkFreely.DBUtility\ThinkFreely.DBUtility\bin\Debug\ThinkFreely.DBUtility.dll
+C:\Users\Administrator\Desktop\ThinkFreely.DBUtility\ThinkFreely.DBUtility\bin\Debug\ThinkFreely.DBUtility.pdb
+C:\Users\Administrator\Desktop\ThinkFreely.DBUtility\ThinkFreely.DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ThinkFreely.DBUtility\ThinkFreely.DBUtility\obj\Debug\ThinkFreely.DBUtility.dll
+C:\Users\Administrator\Desktop\ThinkFreely.DBUtility\ThinkFreely.DBUtility\obj\Debug\ThinkFreely.DBUtility.pdb

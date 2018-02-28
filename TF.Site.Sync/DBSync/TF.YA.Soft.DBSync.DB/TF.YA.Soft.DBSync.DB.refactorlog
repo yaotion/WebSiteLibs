@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="eee9a32a-40fc-43c9-828b-52db48a5f03c" ChangeDateTime="11/15/2017 07:07:22">
+    <Property Name="ElementName" Value="[dbo].[TAB_Sync_Store].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Sync_Store]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ObjectName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="095ea34d-14fe-4aab-8cce-97cf0ca004c9" ChangeDateTime="11/15/2017 07:08:19">
+    <Property Name="ElementName" Value="[dbo].[TAB_Sync_Store_Data].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Sync_Store_Data]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ObjectName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="07035d69-72f8-473a-9f8c-ac3bcdf3c9bc" ChangeDateTime="11/15/2017 07:11:12">
+    <Property Name="ElementName" Value="[dbo].[TAB_Sync_User].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Sync_User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ObjectName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2570f6a2-0b6a-4c33-ba49-1be44c214e42" ChangeDateTime="11/15/2017 07:12:56">
+    <Property Name="ElementName" Value="[dbo].[TAB_Sync_User_Data].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Sync_User_Data]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UserID" />
+  </Operation>
+</Operations>

@@ -1,0 +1,9 @@
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\Output\TestForm.exe
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\Output\TestForm.pdb
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\TestForm\obj\Debug\TestForm.csprojResolveAssemblyReference.cache
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\TestForm\obj\Debug\TestForm.Properties.Resources.resources
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\TestForm\obj\Debug\TestForm.csproj.GenerateResource.Cache
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\TestForm\obj\Debug\TestForm.exe
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\TestForm\obj\Debug\TestForm.pdb
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\Output\TestForm.exe.config
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\TestForm\obj\Debug\TestForm.Form1.resources

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XmlConfig>
+  <ConData>
+    <!--数据库连接字符串-->
+    <WebSiteConnectionString>Data Source=192.168.1.166;Initial Catalog=TestDB;Persist Security Info=True;User ID=sa;Password=Think123;min pool size=1;max pool size=50;Pooling=true;</WebSiteConnectionString>
+  </ConData>
+</XmlConfig>
+

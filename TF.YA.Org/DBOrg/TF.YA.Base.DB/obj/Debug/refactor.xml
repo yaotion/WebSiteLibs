@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="2aad99e3-f706-4f91-b9c1-313d8a0dc37e" ChangeDateTime="10/24/2017 02:02:56" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Base_Station].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Base_Station]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="StationName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e61b4e3f-df2e-400c-a564-99051191b9e7" ChangeDateTime="10/24/2017 02:05:11" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TAB_Base_DutyPlace].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TAB_Base_DutyPlace]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PlaceID" />
+  </Operation>
+</Operations>

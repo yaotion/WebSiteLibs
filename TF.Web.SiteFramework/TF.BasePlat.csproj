@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{45D6003C-F61A-4433-9705-59250C4C4EF6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BasePlat</RootNamespace>
+    <AssemblyName>TF.BasePlat</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\Newtonsoft.Json.8.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>packages\NPOI.2.1.3.0\lib\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NVelocity">
+      <HintPath>packages\NVelocity.1.1.1.60\lib\NVelocity.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>packages\Oracle.ManagedDataAccess.4.121.2.0\lib\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TF.CommonUtility, Version=1.0.2.1013, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\TF.CommonUtility.1.0.2.1013\lib\TF.CommonUtility.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBUtils\Dat_Log%28日志表%29\DBDat_Log.cs" />
+    <Compile Include="DBUtils\DBUserRole%28角色表%29\DBUserRole.cs" />
+    <Compile Include="DBUtils\Module_Information%28导航表%29\DBModule_Information.cs" />
+    <Compile Include="DBUtils\TAB_Module_Relation%28角色连接管理%29\TAB_Module_Relation.cs" />
+    <Compile Include="DBUtils\WebPlatForm_Dat_ErrorLog%28系统错误信息%29\DBWebPlatForm_Dat_ErrorLog.cs" />
+    <Compile Include="DBUtils\WebPlatForm_Module%28模块表%29\DBWebPlatForm_Module.cs" />
+    <Compile Include="DBUtils\WebPlatForm_Module_Power%28模块权限信息%29\DBWebPlatForm_Module_Power.cs" />
+    <Compile Include="DBUtils\数据操作基类\DBOperator.cs" />
+    <Compile Include="DBUtils\模块管理\Module.cs" />
+    <Compile Include="DBUtils\模块管理\RoleInformation.cs" />
+    <Compile Include="Entry\Dat_Log%28日志表%29\Dat_Log.cs" />
+    <Compile Include="Entry\ModulePower%28接口模块权限%29\WebModuleInfo.cs" />
+    <Compile Include="Entry\ModulePower%28接口模块权限%29\ModuleInfo.cs" />
+    <Compile Include="Entry\ModulePower%28接口模块权限%29\PowerModule.cs" />
+    <Compile Include="Entry\WebPlatForm_Dat_ErrorLog%28系统错误信息%29\WebPlatForm_Dat_ErrorLog.cs" />
+    <Compile Include="Entry\WebPlatForm_Module%28模块表%29\WebPlatForm_Module.cs" />
+    <Compile Include="Entry\WebPlatForm_Module_Power%28权限信息%29\WebPlatForm_Module_Power.cs" />
+    <Compile Include="Entry\用户信息\loginReplay.cs" />
+    <Compile Include="Entry\用户信息\userInfo.cs" />
+    <Compile Include="Logic\接口\IUserInfo.cs" />
+    <Compile Include="Logic\接口\IModuleAttribute.cs" />
+    <Compile Include="Entry\Module_Information%28模块表%29\Module_Information.cs" />
+    <Compile Include="Entry\TAB_Module_Relation%28角色连接关联%29\TAB_Module_Relation.cs" />
+    <Compile Include="Entry\UserRole%28角色表%29\UserRole.cs" />
+    <Compile Include="Logic\上传日志\PostLog.cs" />
+    <Compile Include="Logic\模块权限\RolePower.cs" />
+    <Compile Include="Logic\登录验证\LoginInfo.cs" />
+    <Compile Include="Logic\获取配置信息\ConData.cs" />
+    <Compile Include="Logic\错误记录\ErrorLog.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

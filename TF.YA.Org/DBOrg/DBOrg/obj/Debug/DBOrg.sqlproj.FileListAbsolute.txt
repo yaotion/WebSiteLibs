@@ -1,0 +1,15 @@
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\DBOrg\bin\Debug\DBOrg.dacpac
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\DBOrg\bin\Debug\DBOrg.dll
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\DBOrg\bin\Debug\DBOrg.pdb
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\DBOrg\obj\Debug\DBOrg.dll
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\DBOrg\obj\Debug\DBOrg.pdb
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\DBOrg\bin\Output\DBOrg.dacpac
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\DBOrg\bin\Output\DBOrg.dll
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\DBOrg\bin\Output\DBOrg.pdb
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\DBOrg\obj\Debug\Model.xml
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\DBOrg\obj\Debug\refactor.xml
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\DBOrg\obj\Debug\postdeploy.sql
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\DBOrg\obj\Debug\predeploy.sql
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\Output\DBOrg.dacpac
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\Output\DBOrg.dll
+E:\姚新\畅想\包神\项目开发\类库\组织结构\DBOrg\Output\DBOrg.pdb

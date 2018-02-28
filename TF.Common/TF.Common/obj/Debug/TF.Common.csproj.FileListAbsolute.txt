@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\TF.Common\TF.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\TF.Common\TF.Common\bin\Debug\TF.Common.dll
+C:\Users\Administrator\Desktop\TF.Common\TF.Common\bin\Debug\TF.Common.pdb
+C:\Users\Administrator\Desktop\TF.Common\TF.Common\bin\Debug\ThinkFreely.DBUtility.dll
+C:\Users\Administrator\Desktop\TF.Common\TF.Common\bin\Debug\ThinkFreely.DBUtility.pdb
+C:\Users\Administrator\Desktop\TF.Common\TF.Common\obj\Debug\TF.Common.dll
+C:\Users\Administrator\Desktop\TF.Common\TF.Common\obj\Debug\TF.Common.pdb

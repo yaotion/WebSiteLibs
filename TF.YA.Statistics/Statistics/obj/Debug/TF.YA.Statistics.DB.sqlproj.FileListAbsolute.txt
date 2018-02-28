@@ -1,0 +1,9 @@
+E:\姚新\畅想\运安\包神\其他\项目开发\类库\统计看板\Statistics\bin\Debug\TF.YA.Statistics.DB.dacpac
+E:\姚新\畅想\运安\包神\其他\项目开发\类库\统计看板\Statistics\bin\Debug\Statistics.dll
+E:\姚新\畅想\运安\包神\其他\项目开发\类库\统计看板\Statistics\bin\Debug\Statistics.pdb
+E:\姚新\畅想\运安\包神\其他\项目开发\类库\统计看板\Statistics\obj\Debug\Model.xml
+E:\姚新\畅想\运安\包神\其他\项目开发\类库\统计看板\Statistics\obj\Debug\refactor.xml
+E:\姚新\畅想\运安\包神\其他\项目开发\类库\统计看板\Statistics\obj\Debug\postdeploy.sql
+E:\姚新\畅想\运安\包神\其他\项目开发\类库\统计看板\Statistics\obj\Debug\predeploy.sql
+E:\姚新\畅想\运安\包神\其他\项目开发\类库\统计看板\Statistics\obj\Debug\Statistics.dll
+E:\姚新\畅想\运安\包神\其他\项目开发\类库\统计看板\Statistics\obj\Debug\Statistics.pdb

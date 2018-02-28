@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TF.BasePlat</id>
+    <version>1.0.3.1030</version>
+    <title>TF.BasePlat</title>
+    <authors>yx</authors>
+    <owners>yx</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>畅想网站框架类库</description>
+    <dependencies>
+      <dependency id="TF.CommonUtility" version="1.0.1.1013" />
+    </dependencies>
+  </metadata>
+</package>

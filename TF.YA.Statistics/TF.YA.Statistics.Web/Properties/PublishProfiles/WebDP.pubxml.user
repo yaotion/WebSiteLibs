@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\姚新\畅想\运安\包神\其他\项目开发\类库\统计看板\WebDP</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Common.Logging.Core.dll">
+      <publishTime>10/11/2017 16:29:05</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.dll">
+      <publishTime>10/11/2017 16:29:05</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/20/2017 10:01:14</publishTime>
+    </File>
+    <File Include="bin/NPOI.dll">
+      <publishTime>10/11/2017 16:27:37</publishTime>
+    </File>
+    <File Include="bin/NVelocity.dll">
+      <publishTime>10/11/2017 16:27:38</publishTime>
+    </File>
+    <File Include="bin/Oracle.ManagedDataAccess.dll">
+      <publishTime>10/11/2017 16:27:38</publishTime>
+    </File>
+    <File Include="bin/Quartz.dll">
+      <publishTime>12/08/2017 09:42:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>10/19/2017 15:15:48</publishTime>
+    </File>
+    <File Include="bin/TF.CommonUtility.dll">
+      <publishTime>10/26/2017 10:51:42</publishTime>
+    </File>
+    <File Include="bin/TF.YA.Statistics.dll">
+      <publishTime>01/23/2018 15:48:29</publishTime>
+    </File>
+    <File Include="bin/TF.YA.Statistics.Web.dll">
+      <publishTime>01/23/2018 15:48:30</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Providers.resources.dll">
+      <publishTime>10/19/2017 15:15:56</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/07/2017 15:23:01</publishTime>
+    </File>
+    <File Include="Page/ashx/AQTJ.ashx">
+      <publishTime>12/07/2017 14:32:56</publishTime>
+    </File>
+    <File Include="Page/ashx/BJ_List.ashx">
+      <publishTime>12/06/2017 12:53:30</publishTime>
+    </File>
+    <File Include="Page/ashx/ConData.ashx">
+      <publishTime>12/09/2017 13:47:20</publishTime>
+    </File>
+    <File Include="Page/ashx/CQStep.ashx">
+      <publishTime>12/07/2017 13:42:29</publishTime>
+    </File>
+    <File Include="Page/ashx/CTQ.ashx">
+      <publishTime>12/07/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Page/ashx/CTQCount.ashx">
+      <publishTime>12/07/2017 14:03:34</publishTime>
+    </File>
+    <File Include="Page/ashx/JCTJ.ashx">
+      <publishTime>12/07/2017 14:26:45</publishTime>
+    </File>
+    <File Include="Page/ashx/TrainCount.ashx">
+      <publishTime>12/07/2017 09:31:22</publishTime>
+    </File>
+    <File Include="Page/ashx/Weather.ashx">
+      <publishTime>12/07/2017 10:01:10</publishTime>
+    </File>
+    <File Include="Page/Board.aspx">
+      <publishTime>12/09/2017 14:27:03</publishTime>
+    </File>
+    <File Include="Page/Chart.aspx">
+      <publishTime>12/05/2017 13:19:48</publishTime>
+    </File>
+    <File Include="Page/Statistics/ashx/AQTJ.ashx">
+      <publishTime>12/07/2017 14:32:56</publishTime>
+    </File>
+    <File Include="Page/Statistics/ashx/BJ_List.ashx">
+      <publishTime>12/06/2017 12:53:30</publishTime>
+    </File>
+    <File Include="Page/Statistics/ashx/ConData.ashx">
+      <publishTime>12/09/2017 13:47:20</publishTime>
+    </File>
+    <File Include="Page/Statistics/ashx/CQStep.ashx">
+      <publishTime>12/07/2017 13:42:29</publishTime>
+    </File>
+    <File Include="Page/Statistics/ashx/CTQ.ashx">
+      <publishTime>12/07/2017 14:10:04</publishTime>
+    </File>
+    <File Include="Page/Statistics/ashx/CTQCount.ashx">
+      <publishTime>12/07/2017 14:03:34</publishTime>
+    </File>
+    <File Include="Page/Statistics/ashx/JCTJ.ashx">
+      <publishTime>12/07/2017 14:26:45</publishTime>
+    </File>
+    <File Include="Page/Statistics/ashx/TrainCount.ashx">
+      <publishTime>12/07/2017 09:31:22</publishTime>
+    </File>
+    <File Include="Page/Statistics/ashx/Utils.ashx">
+      <publishTime>12/12/2017 14:06:27</publishTime>
+    </File>
+    <File Include="Page/Statistics/ashx/Weather.ashx">
+      <publishTime>12/07/2017 10:01:10</publishTime>
+    </File>
+    <File Include="Page/Statistics/Board.aspx">
+      <publishTime>01/23/2018 15:58:59</publishTime>
+    </File>
+    <File Include="Page/Statistics/css/board1440_900.css">
+      <publishTime>01/23/2018 16:02:14</publishTime>
+    </File>
+    <File Include="Page/Statistics/css/board1920_1080.css">
+      <publishTime>01/23/2018 16:01:25</publishTime>
+    </File>
+    <File Include="Page/Statistics/Images/logo.png">
+      <publishTime>01/23/2018 15:34:40</publishTime>
+    </File>
+    <File Include="Page/Statistics/JS/highcharts.js">
+      <publishTime>11/14/2017 09:50:40</publishTime>
+    </File>
+    <File Include="Page/Statistics/JS/YAStatistics.js">
+      <publishTime>12/14/2017 15:47:02</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>01/23/2018 16:02:26</publishTime>
+    </File>
+    <File Include="TF.CommonUtility.1.0.1.1013.nupkg">
+      <publishTime>12/07/2017 15:22:41</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/27/2017 11:51:05</publishTime>
+    </File>
+    <File Include="XmlConfig.xml">
+      <publishTime>12/27/2017 11:42:39</publishTime>
+    </File>
+    <File Include="_JScripts/highcharts.js">
+      <publishTime>11/14/2017 09:50:40</publishTime>
+    </File>
+    <File Include="_JScripts/YAStatistics.js">
+      <publishTime>12/07/2017 17:05:02</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
